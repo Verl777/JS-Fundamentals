@@ -1,7 +1,7 @@
 const firstArgument = process.argv[2];
 
 if (firstArgument === undefined) {
-  console.log("Hello There Am Valerian");
+  console.log("No argument");
 } else {
   console.log(firstArgument);
 }
